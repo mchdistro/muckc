@@ -15,6 +15,7 @@
     "autoconnect": false,
     "javaOptions": {
       "supported": "21",
+      "suggestedMajor": 21,
       "platformOptions": [
         {
           "platform": "win32",
@@ -27,5 +28,10 @@
   "forge": {
     "version": "40.3.10"
   },
-  "untrackedFiles": []
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": ["options.txt"]
+    }
+  ]
 }

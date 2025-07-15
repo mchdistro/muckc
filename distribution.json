@@ -24,6 +24,7 @@
       "autoconnect": false,
       "javaOptions": {
         "supported": "21",
+        "suggestedMajor": 21,
         "platformOptions": [
           {
             "platform": "win32",
@@ -490,6 +491,27 @@
             "size": 6230778,
             "url": "https://github.com/mchdistro/muckc/raw/main/servers/muckc-1.18.2/libraries/OptiFine_1.18.2_HD_U_H9_MOD.jar",
             "MD5": "1b69b0777288f3e8926811ebb82b1aae"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 188,
+            "url": "https://github.com/mchdistro/muckc/raw/main/servers/muckc-1.18.2/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 81,
+            "url": "https://github.com/mchdistro/muckc/raw/main/servers/muckc-1.18.2/files/servers.dat",
+            "MD5": "1a87f50b0b01a850275c36a870fed70d",
+            "path": "servers.dat"
           }
         }
       ]
