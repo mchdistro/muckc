@@ -1,0 +1,31 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/muckc/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "먹크서버",
+    "description": "Minecraft 1.18.2 (Forge v40.3.10)",
+    "icon": "https://github.com/mchdistro/muckc/raw/main/server-icon.png",
+    "address": "aassdd889900.kr",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": false,
+    "javaOptions": {
+      "supported": "21",
+      "platformOptions": [
+        {
+          "platform": "win32",
+          "architecture": "x64",
+          "distribution": "TEMURIN"
+        }
+      ]
+    }
+  },
+  "forge": {
+    "version": "40.3.10"
+  },
+  "untrackedFiles": []
+}
